@@ -13,4 +13,8 @@
     NSLog(@"Say sth");
 }
 
+- (void)changeMainVersion {
+    NSLog(@"current Version is 1.0.0");
+}
+
 @end
