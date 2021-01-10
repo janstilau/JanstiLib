@@ -28,6 +28,8 @@
     
     Speaker *speaker = [[Speaker alloc] init];
     [speaker saySth];
+    [speaker changeMainVersion];
+    [speaker getWeather];
 }
 
 @end

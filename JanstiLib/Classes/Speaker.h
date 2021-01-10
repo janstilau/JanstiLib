@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)saySth;
 - (void)changeMainVersion;
+- (void)getWeather;
 
 @end
 
