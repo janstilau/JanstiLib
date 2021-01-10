@@ -11,6 +11,7 @@
 #endif
 
 #import "Parser.h"
+#import "Speaker.h"
 
 FOUNDATION_EXPORT double JanstiLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char JanstiLibVersionString[];

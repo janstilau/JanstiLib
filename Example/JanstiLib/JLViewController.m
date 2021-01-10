@@ -8,6 +8,7 @@
 
 #import "JLViewController.h"
 #import <JanstiLib/Parser.h>
+#import <JanstiLib/Speaker.h>
 
 @interface JLViewController ()
 
@@ -24,6 +25,9 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     Parser *aParser = [[Parser alloc] init];
     [aParser begin:@"Being to parser"];
+    
+    Speaker *speaker = [[Speaker alloc] init];
+    [speaker saySth];
 }
 
 @end

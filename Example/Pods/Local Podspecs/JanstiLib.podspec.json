@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JanstiLib/Classes/**/*"
+  "source_files": "JanstiLib/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }
